@@ -1,0 +1,26 @@
+:root{--bg:#f7f6f2;--card:#fff;--ink:#1c1c1e;--sub:#5d5d63;--line:#dedcd4;--accent:#c2331f;--link:#0b57d0}
+@media (prefers-color-scheme:dark){:root{--bg:#131315;--card:#1d1d20;--ink:#ededef;--sub:#a4a4ab;--line:#33333a;--accent:#ff8a75;--link:#8ab4f8}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Malgun Gothic","Apple SD Gothic Neo","Noto Sans KR",system-ui,sans-serif;line-height:1.75;font-size:16px}
+.wrap{max-width:780px;margin:0 auto;padding:36px 16px 70px}
+header.top{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:30px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:22px;color:var(--ink);text-decoration:none}
+.brand i{width:36px;height:36px;border-radius:9px;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-style:normal;font-size:20px}
+nav a{color:var(--sub);text-decoration:none;font-size:14px;margin-left:14px}
+nav a:hover{color:var(--accent)}
+h1{font-size:30px;line-height:1.35;margin:0 0 12px}
+h2{font-size:19px;margin:34px 0 10px;padding-left:10px;border-left:5px solid var(--accent)}
+p{margin:8px 0}
+.lead{font-size:17px;color:var(--sub)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:12px 0}
+ul,ol{margin:6px 0;padding-left:22px}
+li{margin:3px 0}
+a{color:var(--link)}
+table{border-collapse:collapse;width:100%;font-size:15px;background:var(--card);margin:8px 0}
+th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+.en{color:var(--sub);font-size:14px;border-top:1px dashed var(--line);margin-top:26px;padding-top:14px}
+.en h2{font-size:16px;border-left-width:4px}
+footer{margin-top:44px;padding-top:16px;border-top:1px solid var(--line);color:var(--sub);font-size:13px}
+footer a{color:var(--sub);margin-right:14px}
+code{background:var(--bg);border:1px solid var(--line);border-radius:4px;padding:1px 5px;font-size:14px}

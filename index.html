@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>upupup — 내 PC의 영상을 내 유튜브 채널에 올려 주는 업로드 도구</title>
+<meta name="description" content="upupup은 내 PC 폴더에 저장한 영상을 내 유튜브 채널에 올려 주는 개인용 업로드 도구입니다.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <a class="brand" href="./"><i>↑</i>upupup</a>
+  <nav><a href="privacy.html">개인정보처리방침</a><a href="terms.html">서비스 약관</a></nav>
+</header>
+
+<h1>upupup</h1>
+<p class="lead">내 PC 폴더에 저장한 영상을 내 유튜브 채널에 올려 주는 개인용 업로드 도구입니다.</p>
+
+<h2>upupup이 하는 일</h2>
+<div class="card">
+<ul>
+<li>내 컴퓨터의 지정한 폴더에 영상 파일을 넣으면, 그 영상을 <b>내가 연결한 유튜브 채널</b>에 올립니다.</li>
+<li>올릴 때 제목·설명·태그·공개 상태·공개 예약 시각·썸네일을 내가 정한 대로 넣습니다.</li>
+<li>프로그램은 내 컴퓨터에서 돌아갑니다. 영상은 내 컴퓨터에서 유튜브로 바로 올라갑니다.</li>
+</ul>
+</div>
+
+<h2>구글 계정으로 요청하는 권한과 그 이유</h2>
+<p>upupup은 유튜브 채널을 연결할 때 구글 로그인 화면에서 아래 두 가지 권한을 요청합니다. 이 밖의 권한은 요청하지 않습니다.</p>
+<table>
+<tr><th>권한</th><th>무엇에 쓰는가</th></tr>
+<tr><td>YouTube 동영상 업로드<br><code>youtube.upload</code></td><td>내가 고른 영상 파일을 내 채널에 올리고, 그 영상의 제목·설명·태그·공개 상태·썸네일을 정하는 데 씁니다.</td></tr>
+<tr><td>YouTube 계정 보기<br><code>youtube.readonly</code></td><td>연결된 채널의 이름을 화면에 보여 주어 올바른 채널에 올리는지 확인하고, 올린 영상의 처리 상태를 확인하는 데 씁니다.</td></tr>
+</table>
+
+<h2>내 정보는 어떻게 다뤄지나</h2>
+<div class="card">
+<ul>
+<li>구글 로그인으로 받은 접근 토큰은 <b>내 컴퓨터에만</b> 저장됩니다. upupup 운영자의 서버로 보내지 않습니다.</li>
+<li>구글에서 받은 정보를 광고에 쓰거나 남에게 팔거나 넘기지 않습니다.</li>
+<li>연결은 언제든 <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">구글 계정의 서드 파티 액세스 관리</a>에서 끊을 수 있습니다.</li>
+</ul>
+<p>자세한 내용은 <a href="privacy.html">개인정보처리방침</a>에 있습니다.</p>
+</div>
+
+<h2>문의</h2>
+<p>이메일: <a href="mailto:pijae839@gmail.com">pijae839@gmail.com</a></p>
+
+<div class="en">
+<h2>About upupup (English)</h2>
+<p><b>upupup</b> is a personal upload tool that runs on the user's own computer and uploads video files from a local folder to the user's own YouTube channel.</p>
+<p>It requests two Google permissions: <code>youtube.upload</code> to upload the videos the user selects and set their title, description, tags, privacy status and thumbnail; and <code>youtube.readonly</code> to show the connected channel's name and check the processing status of uploaded videos. Access tokens are stored only on the user's computer and are never sent to the operator. See the <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms of Service</a>.</p>
+</div>
+
+<footer>
+<a href="./">upupup</a><a href="privacy.html">개인정보처리방침 (Privacy Policy)</a><a href="terms.html">서비스 약관 (Terms of Service)</a>
+</footer>
+
+</div>
+</body>
+</html>
